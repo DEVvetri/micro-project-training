@@ -1,0 +1,10 @@
+.btn{
+  width: 150px;border-top-right-radius: 30px;border-bottom-left-radius: 30px;
+}
+.register-container
+{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}

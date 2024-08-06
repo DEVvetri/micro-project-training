@@ -1,0 +1,21 @@
+<div class="body">
+  <div class="login-form">
+    <div class="btn-group d-flex m-3">
+      <button
+        class="btn border-0 fw-bold"
+        [routerLink]="['/login-layout', { outlets: { 'outlet-login': ['login'] } }]"
+        [ngClass]="{ 'selected-btn': isLoginActive() }"
+      >
+        Login
+      </button>
+      <button
+        class="btn border-0 fw-bold"
+        [routerLink]="['/login-layout', { outlets: { 'outlet-login': ['register'] } }]"
+        [ngClass]="{ 'selected-btn': isRegisterActive() }"
+      >
+        Register
+      </button>
+    </div>
+    <router-outlet name="outlet-login"></router-outlet>
+  </div>
+</div>

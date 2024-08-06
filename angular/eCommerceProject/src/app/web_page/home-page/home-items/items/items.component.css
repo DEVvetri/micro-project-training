@@ -1,0 +1,59 @@
+.text-centent-area{
+  border-radius: 46% 54% 0% 100% / 0% 0% 100% 100% ;
+  background-color: rgba(253, 253, 253, 0.305);
+  width: 250px;
+  height: 0px;
+  padding: 5px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  position: absolute;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+.card-items-area:hover .text-centent-area{
+animation: move-side 0.5s linear;
+animation-fill-mode: both;
+}
+.card-items-area:hover .text-centent-area{
+  display: flex;
+}
+
+@keyframes move-side {
+  0%{
+    height: 0px;
+    /* top: -170px;
+    left: 150px; */
+  }
+  25%{
+
+    height: 100px;
+    /* top: -140px;
+    left: 100px; */
+  }
+  50%{
+
+    height: 150px;
+    /* top: -90px;
+    left: 50px; */
+  }
+  75%{
+
+    height: 190px;
+    /* top: -10px; */
+  }
+  100%{
+
+    height: 230px;
+    /* top: 10px;
+    left: 10px; */
+  }
+
+}
+

@@ -1,0 +1,18 @@
+<div
+  class="d-flex"
+  style="
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    gap: 10px;
+  "
+>
+  <app-items
+    *ngFor="let data of templist"
+    [image]="data.image"
+    [name]="data.name"
+    [price]="data.price"
+    [category]="data.category"
+  ></app-items>
+</div>

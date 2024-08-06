@@ -1,0 +1,28 @@
+<div
+  class="card-items-area"
+  style="
+    width: 250px;
+    height: 230px;
+    background-color: wheat;
+    background-image: url({{image}});
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  "
+>
+  <div class="text-centent-area">
+    <div style="align-items: end; display: flex; flex-direction: column">
+      <h5>
+        <b>{{ name }}</b>
+      </h5>
+      <p style="padding-top: 15px">
+        <b>{{ price }}</b>
+      </p>
+      <p>
+        <b>{{ category }}</b>
+      </p>
+    </div>
+    <button class="btn btn-primary rounded">Buy</button>
+  </div>
+</div>

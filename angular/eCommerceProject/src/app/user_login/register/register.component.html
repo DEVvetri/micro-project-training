@@ -1,0 +1,70 @@
+<div class="register-container">
+  <div class="row">
+    <div class="col">
+      <label for="formGroupExampleInput" class="form-label">First name</label>
+      <input
+        type="text"
+        class="form-control bg-transparent"
+        placeholder=""
+        aria-label="First name"
+        [value]="newUser.first_name"
+        [(ngModel)]="newUser.first_name"
+        [ngModelOptions]="{ standalone: true }"
+      />
+    </div>
+    <div class="col">
+      <label for="formGroupExampleInput" class="form-label">Last name</label>
+      <input
+        type="text"
+        class="form-control bg-transparent"
+        placeholder=""
+        aria-label="Last name"
+        [value]="newUser.last_name"
+        [(ngModel)]="newUser.last_name"
+        [ngModelOptions]="{ standalone: true }"
+      />
+    </div>
+  </div>
+  <div class="mb-2">
+    <label for="formGroupExampleInput" class="form-label">Email</label>
+    <input
+      type="text"
+      class="form-control bg-transparent"
+      id="formGroupExampleInput"
+      placeholder=""
+      [value]="newUser.email"
+      [(ngModel)]="newUser.email"
+      [ngModelOptions]="{ standalone: true }"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput2" class="form-label">Password</label>
+    <input
+      type="text"
+      class="form-control bg-transparent"
+      id="formGroupExampleInput2"
+      placeholder=""
+      [value]="newUser.password"
+      [(ngModel)]="newUser.password"
+      [ngModelOptions]="{ standalone: true }"
+    />
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="gridCheck"
+        [value]="newUser.issend"
+        [(ngModel)]="newUser.issend"
+        [ngModelOptions]="{ standalone: true }"
+      />
+      <label class="form-check-label" for="gridCheck">
+        Email me with news and updates
+      </label>
+    </div>
+  </div>
+</div>
+<div class="d-flex justify-content-center">
+  <button class="btn btn-light" style="width: 150px" (click)="addUser()">Register</button>
+</div>

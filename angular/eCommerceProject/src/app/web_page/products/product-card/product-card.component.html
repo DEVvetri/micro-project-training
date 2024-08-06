@@ -1,0 +1,62 @@
+<!-- <div class="card m-3 position-relative" style="height: 350px; width: 300px" >
+  <img
+    src="{{ product.image }}"
+    height="350px"
+    class="card-img object-fit-fill"
+    alt="..."
+  />
+  <div class="card-text-area p-2">
+    <h5>{{ product.name }}</h5>
+    <p
+      class="m-0"
+      style="
+        width: 300px;
+        height: 50px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      "
+    >
+      &nbsp;&nbsp;{{ product.details }}
+    </p>
+    <p class="m-0">&nbsp;&nbsp;<b>Category:</b> {{ product.category }}</p>
+    <p class="m-0">&nbsp;&nbsp;<b>Sex:</b> {{ product.sex }}</p>
+    <div class="btn-group position-absolute" style="bottom: 10px; right: 0px">
+      <button class="btn btn-success mx-2 rounded" (click)="toggle()">
+        <i class="bi bi-currency-dollar mx-2"></i>{{ product.price }}</button
+      ><button class="btn btn-primary mx-2 rounded">
+        <i class="bi bi-cart mx-2"></i>Cart
+      </button>
+    </div>
+  </div>
+</div> -->
+
+<div class="card m-3" style="max-width: 540px;height: 200px;" >
+  <div class="row g-0">
+    <div class="col-md-4 d-flex">
+      <img
+        width="250px"
+        src="{{ product.image }}"
+        class="rounded-start object-fit-fill "
+        alt="..."
+      />
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{product.name}}</h5>
+        <p class="card-text">
+         {{product.about}}  </p>
+        <p class="card-text">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </p>
+      </div> <div class="btn-group position-absolute" style="bottom: 10px; right: 0px">
+        <button class="btn btn-success mx-2 rounded" (click)="toggle()">
+          <i class="bi bi-currency-dollar mx-2"></i>{{ product.price }}</button
+        ><button class="btn btn-primary mx-2 rounded">
+          <i class="bi bi-cart mx-2"></i>Cart
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>

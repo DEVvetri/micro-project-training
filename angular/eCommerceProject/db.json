@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "id": "4cb3",
+      "email": "vetrivelmpp004@gmail.com",
+      "first_name": "vetri",
+      "last_name": "vel",
+      "password": "demo12345",
+      "issend": true
+    },
+    {
+      "id": "8767",
+      "email": "vetrivelmpp004@gmail.com",
+      "first_name": "vetri",
+      "last_name": "vel",
+      "password": "demo12345",
+      "issend": false
+    },
+    {
+      "id": "b5d7",
+      "email": "vetrivelmpp004@gmail.com",
+      "first_name": "vetri",
+      "last_name": "vel",
+      "password": "fdsfgdgdfg",
+      "issend": false
+    },
+    {
+      "id": "2e5b",
+      "email": "",
+      "first_name": "",
+      "last_name": "",
+      "password": "",
+      "issend": false
+    },
+    {
+      "id": "7dc2",
+      "email": "",
+      "first_name": "",
+      "last_name": "",
+      "password": "",
+      "issend": false
+    },
+    {
+      "id": "6895",
+      "email": "",
+      "first_name": "",
+      "last_name": "",
+      "password": "",
+      "issend": false
+    }
+  ],
+  "cart": [],
+  "products": [
+    {
+      "id": "0",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/3/r/i/xl-tblrnful-dp-d107-tripr-original-imah2gcgbjzjzbfe.jpeg?q=70",
+      "name": "Agile Trip",
+      "about": "Wn's Walking Shoes For Women  (Blue , 3)",
+      "details": "Agile Trip Wn's Walking Shoes For Women  (Blue , 3)",
+      "category": "Shoes",
+      "sex": "Unisex",
+      "price": 3499,
+      "availablity": 100,
+      "offer": 55
+    },
+    {
+      "id": "1",
+      "image": "https://rukminim2.flixcart.com/image/1043/1043/xif0q/t-shirt/a/g/o/m-mens-round-neck-premium-solid-tshirt-n-and-j-original-imagxx7gyngbpphk.jpeg?q=70&crop=false",
+      "name": "LITE RACER 3.0 ",
+      "about": "Running Shoes For Women  (Black , 8)",
+      "details": "Running Shoes For Women  (Black , 8)",
+      "category": "Shoes",
+      "sex": "Men",
+      "price": 1500,
+      "availablity": 60,
+      "offer": 10
+    },
+    {
+      "id": "2",
+      "image": "https://rukminim2.flixcart.com/image/1127/1127/xif0q/t-shirt/h/8/w/s-mens-round-neck-printed-solid-imp-tshirt-n-and-j-original-imagxtz9rqzppjs9.jpeg?q=70&crop=false",
+      "name": "Galaxy 6 ",
+      "about": "Galaxy 6 W Running Shoes For Women  (Green , 8)",
+      "details": "Galaxy 6 W Running Shoes For Women  (Green , 8)",
+      "category": "Shoes",
+      "sex": "Men",
+      "price": 599,
+      "availablity": 300,
+      "offer": 46
+    },
+    {
+      "id": "3",
+      "image": "https://rukminim2.flixcart.com/image/1006/1006/xif0q/t-shirt/w/q/g/xl-mens-round-neck-printed-imp-tshirt-n-and-j-original-imagxmy2ntaz3emc.jpeg?q=70&crop=false",
+      "name": "Smoothfit Outdoor Sports Shoes ",
+      "about": "Smoothfit Outdoor Sports Shoes with Enhanced Grip TPR Outsole Running Shoes For Women  (Pink, Blue , 8)",
+      "details": "Smoothfit Outdoor Sports Shoes with Enhanced Grip TPR Outsole Running Shoes For Women  (Pink, Blue , 8)",
+      "category": "Shoes",
+      "sex": "Men",
+      "price": 4999,
+      "availablity": 199,
+      "offer": 35
+    },
+    {
+      "id": "4",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/g/8/j/l-mens-round-neck-solid-tshirt-n-and-j-original-imagx2ftjphhgwyu.jpeg?q=70",
+      "name": "Men Typography Round Neck Poly Cotton (190 gsm) Light Blue T-Shirt",
+      "about": "Men Typography Round Neck Poly Cotton (190 gsm) Light Blue T-Shirt",
+      "details": "Men Solid Henley Neck Poly Cotton Light Green T-Shirt",
+      "category": "dress",
+      "sex": "Men",
+      "price": 599,
+      "availablity": 499,
+      "offer": 50
+    }
+  ]
+}

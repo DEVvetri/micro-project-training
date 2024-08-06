@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "name": "Vetrivel M",
+      "price": 23,
+      "rating": 2000
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+.card-text-area
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  bottom: -160px;
+  background-color: white;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 20px;
+}
+.card{
+  overflow: hidden;
+}
+
+@keyframes card-text-rollup {
+  0%{
+    bottom: -200px;
+  }
+  25%{
+    bottom: -150px;
+  }
+
+  50%{
+    bottom: -100px;
+  }
+  75%{
+    bottom: -50px;
+  }
+  100%{
+    bottom: 0px;
+  }
+}
+
+.card:hover .card-text-area{
+display: block;
+animation: card-text-rollup 0.5s linear;
+animation-iteration-count: 1;
+animation-fill-mode: both;
+} 
